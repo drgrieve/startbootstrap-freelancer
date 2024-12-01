@@ -114,21 +114,21 @@ html(lang='en')
                             img.img-fluid(src='assets/img/portfolio/theratrak-icon.png', alt='...')
                     // Portfolio Item 7
                     .col-md-6.col-lg-4.mb-5
-                        .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal1')
+                        .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal7')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
                                     i.fas.fa-plus.fa-3x
                             img.img-fluid(src='assets/img/portfolio/otlet-icon.png', alt='...')
                     // Portfolio Item 8
                     .col-md-6.col-lg-4.mb-5
-                        .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal2')
+                        .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal8')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
                                     i.fas.fa-plus.fa-3x
                             img.img-fluid(src='assets/img/portfolio/gheorg-icon.png', alt='...')
                     // Portfolio Item 9
                     .col-md-6.col-lg-4.mb-5
-                        .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal3')
+                        .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal9')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
                                     i.fas.fa-plus.fa-3x
@@ -152,7 +152,7 @@ html(lang='en')
                             li.lead
                                 | Lead developer for 40+ projects over 15 years at BlueChilli and DR GRIEVE IT CONSULTING
                             li.lead
-                                | Enterprise digtial platforms on startup friendly budgets
+                                | Enterprise digital platforms on startup friendly budgets
                             li.lead
                                 | Platform rearchitecting or new builds
                             li.lead
@@ -180,7 +180,6 @@ html(lang='en')
                 // Contact Section Form
                 .row
                     .col-lg-8.mx-auto
-                        // To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.
                         form#contactForm(name='sentMessage', novalidate='novalidate')
                             .control-group
                                 .form-group.floating-label-form-group.controls.mb-0.pb-2
@@ -234,6 +233,9 @@ html(lang='en')
         include includes/portfolio-modal-4.pug
         include includes/portfolio-modal-5.pug
         include includes/portfolio-modal-6.pug
+        include includes/portfolio-modal-7.pug
+        include includes/portfolio-modal-8.pug
+        include includes/portfolio-modal-9.pug
 
         // Bootstrap core JS
         script(src='https://code.jquery.com/jquery-3.5.1.min.js')
